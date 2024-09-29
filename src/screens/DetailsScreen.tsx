@@ -9,7 +9,7 @@ interface Props {
   route: DetailsScreenRouteProp;
 }
 
-export default function DetailsScreen({ route }) {
+export default function DetailsScreen({ route }: Props) {
   const { itemId } = route.params;
 
   return (
